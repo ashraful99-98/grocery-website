@@ -1,0 +1,95 @@
+.footer {
+    background: #f3f3f3;
+}
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 {
+    font-size: 1.5rem;
+    color: #222;
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box p {
+    font-size: 1.2rem;
+    color: #666;
+    padding-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #666;
+    padding: 0.4rem 0;
+    display: block;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a:hover {
+    color: #bac34e;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1rem;
+
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+    color: #bac34e;
+}
+
+.footer .box-container .box form input {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #222;
+    margin: 1rem 0;
+    text-transform: none;
+}
+
+.submit-btn {
+    text-transform: capitalize;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: #222;
+}
+
+.btn {
+    text-transform: capitalize;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: #222;
+    margin: 1rem 0;
+}
+
+.footer .btn:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+.footer .box-container .box .payment {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.credit {
+    text-align: center;
+    text-transform: capitalize;
+    background: #bac34e;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1.6rem;
+}
