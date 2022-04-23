@@ -1,0 +1,134 @@
+.heading {
+    background: url(../picutre/Image/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+.heading h1 {
+    color: #222;
+    font-size: 4rem;
+}
+
+.heading p {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #666;
+}
+
+.heading p a {
+    color: #222;
+    padding-right: .5rem;
+    text-decoration: none;
+}
+
+.heading p a:hover {
+    color: #bac34e;
+}
+
+/* about section  */
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.about .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+.about .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+    text-align: left;
+}
+
+.about .content span {
+    color: #bac34e;
+    font-size: 2.5rem;
+}
+
+.about .content h3 {
+    color: #222;
+    font-size: 3rem;
+    padding-top: .5rem;
+}
+
+.about .content p {
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+/* Gellary section  */
+.gallery .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery .box-container .box {
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.gallery .box-container .box img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.gallery .box-container .box:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.gallery .box-container .box:hover .icons {
+    bottom: 0;
+}
+
+.gallery .box-container .box .icons {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1.5rem 0;
+    position: absolute;
+    bottom: -6rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.gallery .box-container .box .icons a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0 1.5rem;
+}
+
+.gallery .box-container .box .icons a:hover {
+    color: #bac34e;
+}
