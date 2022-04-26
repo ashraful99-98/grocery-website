@@ -59,16 +59,18 @@
     animation: fadeUp .4s linear;
 }
 
-.home .slides-container .slide .btn {
+.home .slides-container .slide .slide-btn {
     background-color: #bac34e;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
     color: #fff;
     text-transform: uppercase;
-    border-radius: 1rem;
+    border-radius: 5px;
     border: 1px solid #bac34e;
 }
 
-.home .slides-container .slide .btn:hover {
+.home .slides-container .slide .slide-btn:hover {
     background-color: antiquewhite;
     color: #222;
     border: 1px solid #222;
@@ -109,19 +111,17 @@
 /* banner section */
 
 .banner-container {
-    padding: 2.2rem 0;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(10rem, 1fr));
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 1.5rem;
+    -ms-grid-columns: (minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 1rem;
+    padding: 2.5rem 0;
 }
 
 .banner-container .banner {
-    margin: 0.5rem;
     position: relative;
-    height: 36vh;
-    width: 30vw;
+    height: 15rem;
     overflow: hidden;
 }
 
@@ -147,26 +147,29 @@
 
 .banner-container .banner .content span {
     color: #666;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: capitalize;
 }
 
 .banner-container .banner .content h3 {
-    font-size: 1.8rem;
-    padding-top: .5rem;
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
     color: #222;
     text-transform: capitalize;
 }
 
-.banner-container .banner .content .btn {
+.banner-container .banner .content .banner-btn {
     padding: .4rem 1.2rem;
     font-size: 1.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
     text-transform: capitalize;
     background-color: #bac34e;
     color: #fff;
+    border-radius: 5px;
 }
 
-.banner-container .banner .content .btn:hover {
+.banner-container .banner .content .banner-btn:hover {
     color: #fff;
     background-color: #666;
 }

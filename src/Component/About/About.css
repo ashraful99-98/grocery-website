@@ -1,0 +1,149 @@
+/* about section  */
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.about .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 10rem;
+    flex: 1 1 10rem;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+.about .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 10rem;
+    flex: 1 1 10rem;
+    text-align: left;
+}
+
+.about .content span {
+    color: #bac34e;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.about .content h3 {
+    color: #222;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-top: .3rem;
+}
+
+.about .content p {
+    color: #666;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+
+.about .content .about-btn {
+    background-color: #bac34e;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    border-radius: 2px;
+    text-transform: capitalize;
+
+}
+
+.about .content .about-btn:hover {
+    background-color: #666;
+}
+
+/* Gellary section  */
+.gallery-title .title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6CEB5;
+    padding-bottom: 4px;
+}
+
+.title span {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.title .span-category {
+    color: #bac34e;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.title a:hover {
+    color: #bac34e;
+}
+
+.gallery .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.1rem;
+    padding: 2rem 0;
+}
+
+.gallery .box-container .box {
+    height: 15rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.gallery .box-container .box img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.gallery .box-container .box:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.gallery .box-container .box:hover .icons {
+    bottom: 0;
+}
+
+.gallery .box-container .box .icons {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 0;
+    position: absolute;
+    bottom: -6rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.gallery .box-container .box .icons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.gallery .box-container .box .icons a:hover {
+    color: #bac34e;
+}

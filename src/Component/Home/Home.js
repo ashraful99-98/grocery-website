@@ -40,7 +40,7 @@ const Home = () => {
                             <div class="content">
                                 <span>fresh and organic</span>
                                 <h3>upto 50% off</h3>
-                                <a href="#" class="btn">shop now</a>
+                                <a href="shop.html" class="slide-btn">shop now</a>
                             </div>
                             <div class="image">
                                 <img src={slider1} alt="" />
@@ -51,7 +51,7 @@ const Home = () => {
                             <div class="content">
                                 <span>fresh and organic</span>
                                 <h3>upto 50% off</h3>
-                                <a href="#" class="btn">shop now</a>
+                                <a href="shop.html" class="slide-btn">shop now</a>
                             </div>
                             <div class="image">
                                 <img src={slider2} alt="" />
@@ -61,7 +61,7 @@ const Home = () => {
                             <div class="content">
                                 <span>fresh and organic</span>
                                 <h3>upto 50% off</h3>
-                                <a href="#" class="btn">shop now</a>
+                                <a href="shop.html" class="slide-btn">shop now</a>
                             </div>
                             <div class="image">
                                 <img src={slider3} alt="" />
@@ -86,7 +86,7 @@ const Home = () => {
                     <div class="content">
                         <span>limited sales</span>
                         <h3>upto 50% off</h3>
-                        <a href="#" class="btn">shop now</a>
+                        <a href="#" class="banner-btn">shop now</a>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@ const Home = () => {
                     <div class="content">
                         <span>limited sales</span>
                         <h3>upto 50% off</h3>
-                        <a href="#" class="btn">shop now</a>
+                        <a href="#" class="banner-btn">shop now</a>
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@ const Home = () => {
                     <div class="content">
                         <span>limited sales</span>
                         <h3>upto 50% off</h3>
-                        <a href="#" class="btn">shop now</a>
+                        <a href="#" class="banner-btn">shop now</a>
                     </div>
                 </div>
 

@@ -1,0 +1,111 @@
+.heading-section {
+    background: url(../picutre/Image/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    text-transform: capitalize;
+}
+
+.heading-div {
+    padding-top: 3rem;
+}
+
+.heading-div .head {
+    color: #222;
+    font-size: 2.4rem;
+}
+
+.heading-div .heading-p {
+    font-size: 1.3rem;
+    color: #666;
+}
+
+.heading-div .heading-p a {
+    color: #222;
+    padding-right: .5rem;
+    text-decoration: none;
+}
+
+.heading-div .heading-p a:hover {
+    color: #bac34e;
+}
+
+/* catagory section  */
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.category-title .title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6CEB5;
+    padding-bottom: 4px;
+}
+
+.title span {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.title .span-category {
+    color: #bac34e;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.title a:hover {
+    color: #bac34e;
+}
+
+.category .box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category a {
+    text-decoration: none;
+}
+
+.category .box-container .box {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.category .box-container .box img {
+    height: 9.5rem;
+}
+
+.category .box-container .box h3 {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: #666;
+}
+
+.category .box-container a {
+    text-decoration: none;
+}
+
+.category .box-container .box:hover h3 {
+    color: #bac34e;
+}
+
+/* product section  */
+.products .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    padding: 3rem 0;
+}

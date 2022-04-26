@@ -33,12 +33,12 @@
 }
 
 .header .navbar a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #666;
     margin: 0 1rem;
     text-decoration: none;
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .header .navbar a:hover {
@@ -54,36 +54,4 @@
 
 .header .icons div:hover {
     color: #bac34e;
-}
-
-@-webkit-keyframes fadeLeft {
-    0% {
-        -webkit-transform: translateX(-5rem);
-        transform: translateX(-5rem);
-        opacity: 0;
-    }
-}
-
-@keyframes fadeLeft {
-    0% {
-        -webkit-transform: translateX(-5rem);
-        transform: translateX(-5rem);
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes fadeUp {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-        opacity: 0;
-    }
-}
-
-@keyframes fadeUp {
-    0% {
-        -webkit-transform: scale(0.5);
-        transform: scale(0.5);
-        opacity: 0;
-    }
 }
