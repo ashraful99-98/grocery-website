@@ -11,12 +11,14 @@ import gellaryImg6 from '../picutre/Image/gallery-img-6.jpg';
 const About = () => {
     return (
         <div>
-            <div class="heading">
-                <h1>about us</h1>
-                <p> <a href="home.html">home >></a> about </p>
+            <div class="heading-section">
+                <div className="heading-div">
+                    <h1 class="head">About Us</h1>
+                    <p class="heading-p"> <a href="home.html">home <span>>></span> </a> about </p>
+                </div>
             </div>
 
-            <section class="about">
+            <section class="about container">
 
                 <div class="image">
                     <img src={aboutImg} alt="" />
@@ -26,20 +28,21 @@ const About = () => {
                     <div>
                         <span>welcome to our shop</span>
                         <h3>fresh and organic groceries</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vel sequi nostrum quae nobis non quaerat
-                            nisi voluptatibus recusandae reprehenderit tempore eligendi, eum quibusdam perferendis dicta, incidunt
-                            dolores nemo ex.</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem cumque molestiae blanditiis deleniti
-                            aspernatur, ab tempora quisquam sapiente commodi hic.</p>
-                        <a href="#" class="btn">read more</a>
+                        <p>Organic vegetables are often contaminated with harmful disease-causing bacteria, warns a new study.
+                            Organic vegetables are often contaminated with harmful disease-causing bacteria, warns a new study.</p>
+                        <p>Organic fruit and vegetables are becoming increasingly popular as more people eat healthy diets and avoid pesticides, fertilisers and herbicides.
+                            Vegetables in particular can contain single-celled organism's like free-living amoebae (FLA), which feed on bacteria, some of which can be extremely harmful to humans.</p>
+                        <a href="#" class="about-btn">read more</a>
                     </div>
                 </div>
 
             </section>
 
-            <section class="gallery">
+            <section class="gallery container">
 
-                <h1 class="title"> our <span>gallery</span> <a href="#">view all >></a> </h1>
+                <div className="gallery-title">
+                    <h1 class="title"> <span>our <span>gallery</span></span> <a href="#">view all >></a> </h1>
+                </div>
 
                 <div class="box-container">
 
