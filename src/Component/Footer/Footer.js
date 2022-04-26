@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
-            <section class="credit">created by Ashraful Islam Kamran | all rights reserved!</section>
+            <section class="credit">created by Kamran & Masum | all rights reserved!</section>
         </div>
     );
 };
