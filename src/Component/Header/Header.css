@@ -1,57 +1,67 @@
-.header {
+.header-nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
     background: #fff;
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1.2rem 9%;
 }
 
-.header .logo {
+.header-nav .logo {
     font-size: 1.6rem;
     font-weight: bolder;
     color: #666;
     text-decoration: none;
     text-transform: capitalize;
+
 }
 
-.header .logo:hover {
+.header-nav .logo:hover {
     color: #bac34e;
-    padding-right: .5rem;
+    padding-right: .2rem;
 }
 
-.header .navbar a {
+.header-nav .navbar-ul {
+    margin-left: 13rem;
+}
+
+.header-nav .navbar-ul a {
     font-size: 1.2rem;
     color: #666;
-    margin: 0 1rem;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 500;
 }
 
-.header .navbar a:hover {
+
+.header-nav .navbar-ul a:hover {
     color: #bac34e;
 }
 
-.header .icons div {
-    font-size: 2rem;
-    margin-left: 1.7rem;
-    cursor: pointer;
-    color: #666;
+.dropdown {
+    background: #fff;
+    color: #bac34e;
+    font-size: 1.1rem;
+
 }
 
-.header .icons div:hover {
+.dropdown:hover {
+    background: #fff;
+    color: #bac34e;
+
+}
+
+.header-nav .icons .icon {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+}
+
+.header-nav .icons .icon:hover {
     color: #bac34e;
 }

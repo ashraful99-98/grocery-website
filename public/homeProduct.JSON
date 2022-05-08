@@ -1,0 +1,58 @@
+[
+    {
+        "key": "B01M18UZF5",
+        "name": "Lal Angur (Red Grapes)",
+        "Payment": " Cash on delivery, Bkash, Paypal",
+        "wholePrice": 180,
+        "priceFraction": "00",
+        "stock": 23,
+        "star": 4,
+        "starCount": 2457,
+        "img": "https://i.ibb.co/qBLX6Sp/product-5.png",
+        "price": 125,
+        "wight": "250gm",
+        "shipping": 3.99
+    },
+    {
+        "key": "B01DBGVB7K",
+        "name": "Raw nuts(Kacha badam)",
+        "Payment": " Cash on delivery, Bkash, Paypal",
+        "wholePrice": 220,
+        "priceFraction": 49,
+        "stock": 54,
+        "star": 4,
+        "starCount": 2777,
+        "img": "https://i.ibb.co/ZVHLkXR/product-6.png",
+        "price": 220.49,
+        "wight": "1KG",
+        "shipping": 3.99
+    },
+    {
+        "key": "B01LZ2WZGH",
+        "name": "Red Tomato(spacial)",
+        "Payment": " Cash on delivery, Bkash, Paypal",
+        "wholePrice": 100,
+        "priceFraction": "88",
+        "stock": 55,
+        "star": 2,
+        "starCount": 2899,
+        "img": "https://i.ibb.co/nzSvHSF/product-2.png",
+        "price": 50,
+        "shipping": 2,
+        "wight": "1KG"
+    },
+    {
+        "key": "B01K1IO3QW",
+        "name": "Malta (spacial product dashi)",
+        "Payment": " Cash on delivery, Bkash, Paypal",
+        "wholePrice": 180,
+        "priceFraction": "99",
+        "stock": 3,
+        "star": 3,
+        "starCount": 3525,
+        "img": "https://i.ibb.co/CKmz2F3/product-3.png",
+        "price": 99,
+        "shipping": 3.99,
+        "wight": "1KG"
+    }
+]

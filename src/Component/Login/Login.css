@@ -1,0 +1,94 @@
+.login {
+    margin: 5rem 0;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-from {
+    padding: 3rem;
+    background-color: #F4FAED;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.login-from input {
+    width: 70%;
+    height: 3.5rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+
+}
+
+.login-from input:hover {
+    border: 3px solid #75C325;
+}
+
+.login-box {
+    margin: 1.5rem 0;
+
+}
+
+.privacy-policy {
+    color: red;
+}
+
+.privacy-policy:hover {
+    color: red;
+}
+
+.login-btn {
+    background-color: #BAC34E;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6rem 1.6rem;
+    border-radius: 2rem;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.login-btn:hover {
+    background-color: #75C325;
+    color: #fff;
+}
+
+.register-box {
+    text-align: center;
+    align-items: center;
+}
+
+.register-box a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.register-box .box a {
+    background-color: #BAC34E;
+    color: #fff;
+    padding: 0.6rem 2.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.register-box .box a:hover {
+    background-color: #75C325;
+    color: #fff;
+}
+
+.register-box a:hover {
+    color: #75C325;
+}

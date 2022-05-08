@@ -1,0 +1,30 @@
+.wishlist-item {
+    border-top: 1px solid #E9E9E9;
+    border-left: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+    align-items: center;
+    padding: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.wishlist-item .p:hover {
+    color: #BAC34E;
+}
+
+.wishlist-item:last-child {
+    border: 1px solid #E9E9E9;
+}
+
+.wishlist-icon {
+    font-size: 1.2rem;
+    background-color: #BAC34E;
+    padding: 0.7rem;
+    border-radius: 50%;
+}
+
+.wishlist-icon:hover {
+    background-color: #FF6600;
+    color: #fff;
+}

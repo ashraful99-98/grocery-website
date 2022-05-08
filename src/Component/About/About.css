@@ -60,10 +60,73 @@
 }
 
 .about .content .about-btn:hover {
-    background-color: #666;
+    background-color: #75C325;
+}
+
+/* our services  */
+.our-services-section {
+    background-color: #E1FFD3;
+}
+
+.our-services {
+    display: flex;
+    text-align: left;
+}
+
+.our-services-text {
+    padding: 4rem 0;
+}
+
+.our-services-text h2 {
+    letter-spacing: 1.4px;
+    margin-bottom: 1rem;
+    color: #75C325;
+}
+
+.our-service {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.our-service-text {
+    padding: 0 1rem;
+}
+
+/* services section  */
+
+.services {
+    background-color: #89C74A;
+    color: #fff;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 3rem;
+    margin: 0 2rem;
+
+}
+
+.service-img {
+    width: 16rem;
+    height: 5.5rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 1rem;
+}
+
+.service-img:hover {
+    background-color: #FF6600;
+    color-adjust: #fff;
 }
 
 /* Gellary section  */
+
 .gallery-title .title {
     display: flex;
     justify-content: space-between;
@@ -146,4 +209,9 @@
 
 .gallery .box-container .box .icons a:hover {
     color: #bac34e;
+}
+
+/* awards section  */
+.awards {
+    padding: 4rem 0;
 }

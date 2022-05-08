@@ -20,7 +20,7 @@
 }
 
 .footer .box-container .box p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
     padding-bottom: .2rem;
     text-transform: capitalize;
@@ -49,31 +49,47 @@
     color: #bac34e;
 }
 
-.footer .box-container .box form input {
-    width: 100%;
-    padding: 0.7rem 1rem;
+
+.footer .box-container .box .submit {
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 1rem;
     color: #222;
-    margin: 1rem 0;
     text-transform: none;
+    display: flex;
+}
+
+.footer .box-container .box img {
+    margin: 0.5rem 0;
+}
+
+.submit-mail {
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+    color: #222;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 2px solid #bac34e;
 }
 
 .submit-btn {
+    display: flex;
     text-transform: capitalize;
-    width: 100%;
     padding: .5rem 1rem;
     font-size: 1rem;
     color: #222;
+    border: 1px solid #bac34e;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #bac34e;
+    color: #fff;
+
 }
 
-.btn {
-    text-transform: capitalize;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-    color: #222;
-    margin: 1rem 0;
+.span {
+    margin-right: 0.5rem;
 }
+
 
 .footer .btn:hover {
     background-color: #666;

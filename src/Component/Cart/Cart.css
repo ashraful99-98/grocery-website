@@ -1,0 +1,15 @@
+.cart .cart-btn {
+    padding: .4rem 1.2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #bac34e;
+    color: #333;
+    border-radius: 5px;
+}
+
+.cart .cart-btn:hover {
+    color: #fff;
+    background-color: #75C325;
+}

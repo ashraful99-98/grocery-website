@@ -68,8 +68,8 @@
 }
 
 .category .box-container {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .category a {
@@ -83,6 +83,10 @@
 
 .category .box-container .box img {
     height: 9.5rem;
+}
+
+.category .box-container .box img:hover {
+    color: #bac34e;
 }
 
 .category .box-container .box h3 {
@@ -108,4 +112,13 @@
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
     padding: 3rem 0;
+}
+
+.cart-item {
+    background-color: #e5ebaa;
+    color: #444;
+    padding: 2rem 0;
+    box-shadow: #D6CEB5 2px 5px 10px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
 }

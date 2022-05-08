@@ -1,0 +1,52 @@
+.review-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding: 2rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+}
+
+.item-img {
+    margin-right: 1rem;
+}
+
+.review-item div {
+    margin-right: 1.5rem;
+}
+
+.paragraph {
+    color: #666;
+}
+
+.review-p {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.review-p .price {
+    color: #333;
+    font-weight: 600;
+}
+
+.icon-div {
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #BAC44E;
+    color: #333;
+}
+
+.icon-div:hover {
+    background-color: #FF6600;
+    color: #fff;
+}
+
+.review-icon {
+    font-size: 2.5rem;
+}

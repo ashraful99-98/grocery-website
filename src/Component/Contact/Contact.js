@@ -6,8 +6,8 @@ const Contact = () => {
         <div>
             <div class="heading-section">
                 <div className="heading-div">
-                    <h1 class="head">About Us</h1>
-                    <p class="heading-p"> <a href="home.html">home <span>>></span> </a> about </p>
+                    <h1 class="head">Contact Us</h1>
+                    <p class="heading-p"> <a href="home.html">home <span>>></span></a>contact us </p>
                 </div>
             </div>
 
@@ -25,8 +25,8 @@ const Contact = () => {
                     <div class="icons">
                         <i class="fas fa-envelope"></i>
                         <h3>our email</h3>
-                        <p>grocery-web-bd22@gmail.com</p>
-                        <p>grocery-web-bd.2022@gmail.com</p>
+                        <p>grocerywebbd22@gmail.com</p>
+                        <p>grocerywebbd.2022@gmail.com</p>
                     </div>
 
                     <div class="icons">

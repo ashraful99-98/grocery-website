@@ -1,0 +1,49 @@
+.client-review {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.client-review .box {
+    padding: 1rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.client-review .box .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.client-review .box .user img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.client-review .box .user h3 {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.client-review .box .user span {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: #bac34e;
+}
+
+.client-review .box p {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #666;
+}

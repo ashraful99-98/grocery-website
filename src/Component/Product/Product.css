@@ -88,3 +88,14 @@
     font-size: 1.2rem;
     color: #bac34e;
 }
+
+.products .box-container .box .content .review-icon {
+    display: inline-flex;
+    font-size: 0.9rem;
+    color: #666;
+    padding-top: 0.6rem;
+}
+
+.products .box-container .box .content .review-icon .user {
+    margin-right: 0.3rem;
+}

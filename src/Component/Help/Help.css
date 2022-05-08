@@ -1,0 +1,84 @@
+.help-section {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    align-items: left;
+    text-align: left;
+}
+
+.help-section h3 {
+    color: #333;
+    padding-bottom: 1rem;
+}
+
+.help-section .help-email {
+    width: 50%;
+    padding: 1rem 0.5rem;
+    border: .5px solid #666;
+    border-radius: 10px;
+}
+
+.artical {
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.artical-info {
+    padding-top: 1rem;
+    text-align: left;
+    align-items: center;
+}
+
+.artical-info div {
+    margin-bottom: 1rem;
+}
+
+.artical-info h5:hover {
+    color: #0AAD0A;
+}
+
+.topic {
+    text-align: left;
+    padding: 2rem 0;
+}
+
+.topic-item {
+    padding-top: 2rem;
+}
+
+.topic-info .info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1.8rem;
+}
+
+.topic-info .info .info-help {
+    margin-left: 1rem;
+}
+
+.topic-info .info .info-help h6 {
+    text-transform: capitalize;
+}
+
+.topic-info .info .info-help h6:hover {
+    color: #0AAD0A;
+}
+
+.info-div {
+    text-align: left;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.login-help {
+    text-decoration: none;
+    background-color: #0AAD0A;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+}
+
+.login-help:hover {
+    color: #fff;
+}

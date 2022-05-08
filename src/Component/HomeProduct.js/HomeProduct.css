@@ -1,0 +1,103 @@
+.products .box-container .home-box {
+    position: relative;
+    background: #f3f3f3;
+    text-align: center;
+    overflow: hidden;
+    border: 1.5px solid #bac34e;
+    cursor: pointer;
+}
+
+.products .box-container .home-box:hover .icons {
+    top: 0;
+}
+
+.products .box-container .home-box .icons {
+    position: absolute;
+    top: -105%;
+    left: 0;
+    height: 15rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(243, 243, 243, 0.8);
+    gap: 1rem;
+}
+
+.products .box-container .home-box .icons a {
+    font-size: 1.4rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #666;
+}
+
+.products .box-container .home-box .icons a:hover {
+    background: #bac34e;
+    color: #fff;
+}
+
+.products .box-container .home-box .image {
+    height: 15rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.products .box-container .home-box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.products .box-container .home-box .content {
+    padding: 1rem;
+}
+
+.products .box-container .home-box .content h3 {
+    font-size: 1.4rem;
+    color: #222;
+}
+
+.products .box-container .home-box .content small {
+    font-size: .8rem;
+    color: #666;
+}
+
+.products .box-container .home-box .content .small-p {
+    font-size: .9rem;
+    color: red;
+}
+
+.products .box-container .home-box .content .price {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #bac34e;
+    padding-bottom: 1rem;
+}
+
+.products .box-container .home-box .content .stars .icon {
+    font-size: 1.2rem;
+    color: #bac34e;
+}
+
+.products .box-container .home-box .content .review-icon {
+    display: inline-flex;
+    font-size: 0.9rem;
+    color: #666;
+    padding-top: 0.6rem;
+}
+
+.products .box-container .homebox .content .review-icon .user {
+    margin-right: 0.3rem;
+}

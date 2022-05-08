@@ -1,5 +1,5 @@
 import React from 'react';
-import './Review.css';
+import './ClientReview.css';
 import reviewIcon1 from '../picutre/Image/icon-1.png';
 import reviewIcon2 from '../picutre/Image/icon-2.png';
 import reviewIcon3 from '../picutre/Image/icon-3.png';
@@ -10,17 +10,17 @@ import reviewPerson4 from '../picutre/Image/pic-4.png';
 import reviewPerson5 from '../picutre/Image/pic-5.png';
 import reviewPerson6 from '../picutre/Image/pic-6.png';
 
-const Review = () => {
+const ClientReview = () => {
+
     return (
         <div>
 
             <div class="heading-section">
                 <div className="heading-div">
                     <h1 class="head">client's review</h1>
-                    <p class="heading-p"> <a href="home.html">home <span>>></span> </a> review </p>
+                    <p class="heading-p"> <a href="home.html">home <span>>></span></a>client review </p>
                 </div>
             </div>
-
 
             <section class="info-container container">
 
@@ -56,7 +56,7 @@ const Review = () => {
 
             </section>
 
-            <section class="review container">
+            <section class="client-review container">
 
                 <div class="box">
                     <div class="user">
@@ -127,7 +127,7 @@ const Review = () => {
                     <div class="user">
                         <img src={reviewPerson6} alt="" />
                         <div class="info">
-                            <h3>Ashraful Kamran</h3>
+                            <h3>Ash Jannath</h3>
                             <span>happy client</span>
                         </div>
                     </div>
@@ -143,4 +143,4 @@ const Review = () => {
     );
 };
 
-export default Review;
+export default ClientReview;

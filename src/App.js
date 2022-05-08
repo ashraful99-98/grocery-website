@@ -2,18 +2,26 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './Component/About/About';
 import Blog from './Component/Blog/Blog';
+import ClientReview from './Component/ClientReview/ClientReview';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
+import Help from './Component/Help/Help';
 import Home from './Component/Home/Home';
-import Review from './Component/Review/Review';
+import Login from './Component/Login/Login';
+import Register from './Component/Login/Register';
+import OrderReview from './Component/OrderReview/OrderReview';
+import PrivacyPolicy from './Component/PrivacyPolicy/PrivacyPolicy';
 import Shop from './Component/Shop/Shop';
+import Wishlist from './Component/Wishlist/Wishlist';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header></Header>
+        <Header>
+        </Header>
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -24,14 +32,38 @@ function App() {
           <Route path="/shop.html">
             <Shop></Shop>
           </Route>
+
           <Route path="/about.html">
             <About></About>
           </Route>
-          <Route path="/review.html">
-            <Review></Review>
+          <Route path="/orderReview.html">
+            <OrderReview></OrderReview>
           </Route>
+          <Route path="/clientReview.html">
+            <ClientReview></ClientReview>
+          </Route>
+          {/* <Route path="/cart.html">
+            <Cart></Cart>
+          </Route> */}
+
+          <Route path="/wishList.html">
+            <Wishlist></Wishlist>
+          </Route>
+
           <Route path="/blog.html">
             <Blog></Blog>
+          </Route>
+          <Route path="/login.html">
+            <Login></Login>
+          </Route>
+          <Route path="/register.html">
+            <Register></Register>
+          </Route>
+          <Route path="/privacyPolicy.html">
+            <PrivacyPolicy></PrivacyPolicy>
+          </Route>
+          <Route path="/help.html">
+            <Help></Help>
           </Route>
           <Route path="/contact.html">
             <Contact></Contact>

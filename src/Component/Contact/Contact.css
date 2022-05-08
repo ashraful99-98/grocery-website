@@ -22,20 +22,26 @@
     line-height: 4rem;
     font-size: 2rem;
     background: #bac34e;
-    color: #fff;
+    color: #333;
     border-radius: 50%;
+}
+
+.contact .icons-container .icons i:hover {
+    background-color: #FF6600;
+    color: #fff;
 }
 
 .contact .icons-container .icons h3 {
     color: #222;
     font-size: 1.5rem;
-    padding: 0.5rem 0;
     text-transform: capitalize;
+    padding: 0.5rem 0;
 }
 
 .contact .icons-container .icons p {
     color: #666;
     font-size: 1.1rem;
+
 }
 
 .contact .row {
@@ -90,7 +96,7 @@
 
 .message-btn {
     background-color: #bac34e;
-    color: #fff;
+    color: #333;
     text-transform: capitalize;
     font-size: 1.2rem;
     padding: .5rem 2rem;
@@ -100,7 +106,7 @@
 }
 
 .message-btn:hover {
-    background-color: #666;
+    background-color: #75C325;
     color: #fff;
 }
 

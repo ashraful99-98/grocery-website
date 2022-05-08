@@ -1,0 +1,66 @@
+.review {
+    padding: 2rem 0;
+    background-color: #F6F6F6;
+}
+
+.review h3 {
+    color: #BAC44E;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1rem;
+}
+
+.product-review {
+    padding: 1.5rem 0;
+}
+
+.cart-review {
+    margin-top: 1.5rem;
+    background-color: #E5EBAA;
+    font-display: #444;
+    padding: 1.5rem;
+    line-height: 2rem;
+    color: #444;
+}
+
+.info-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.info-container .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.info-container .info img {
+    height: 4.5rem;
+}
+
+.info-container .info .content h3 {
+    font-size: 1.4rem;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.info-container .info .content span {
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #666;
+}

@@ -3,14 +3,17 @@ import Rating from 'react-rating';
 import './Product.css';
 
 const Product = (props) => {
-    const { name, img, star, wight, price, stock } = props.product;
+    const { name, img, star, wight, price, stock, starCount } = props.product;
+
     return (
         <div>
             <div class="box">
                 <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a onClick={() => props.handleAddToCart(props.product)} class="fas fa-shopping-cart"></a>
+
+                    <a href="OrderReview.html" class="fas fa-heart"></a>
+
+                    <a href="" class="fas fa-eye"></a>
                 </div>
                 <div class="image">
                     <img src={img} alt="" />
@@ -28,6 +31,10 @@ const Product = (props) => {
                             readonly
                         >
                         </Rating>
+                    </div>
+                    <div class="review-icon">
+                        <p><i class="fas fa-user user"></i></p>
+                        <p>{starCount} review</p>
                     </div>
                 </div>
             </div>
