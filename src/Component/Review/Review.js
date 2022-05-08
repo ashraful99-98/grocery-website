@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import './Review.css';
 import reviewIcon1 from '../picutre/Image/icon-1.png';
 import reviewIcon2 from '../picutre/Image/icon-2.png';
