@@ -21,12 +21,12 @@ const OrderCart = (props) => {
                 <h4 class="cart-h4 h4">Cart & Payment </h4>
                 <h6 class="cart-h4"><span>Iteams Ordered =</span><span>{totalQuantity}</span></h6>
 
-                <p class="cart-h4"><span>Subtotal: </span><span>${total.toFixed(2)}</span></p>
+                <p class="cart-h4"><span>Subtotal: </span><span>৳{total.toFixed(2)}</span></p>
 
-                <p class="cart-h4"><span>Taxes:</span><span>${tax.toFixed(2)}</span></p>
+                <p class="cart-h4"><span>Taxes:</span><span>৳{tax.toFixed(2)}</span></p>
 
-                <p class="cart-h4 cart-p"><span>Delivery Charge:</span><span>${shipping}</span></p>
-                <h5 class="cart-h4"><span>Total ></span><span>${grandTotal.toFixed(2)}</span></h5>
+                <p class="cart-h4 cart-p"><span>Delivery Charge:</span><span>৳{shipping}</span></p>
+                <h5 class="cart-h4"><span>Total ></span><span>৳{grandTotal.toFixed(2)}</span></h5>
 
                 {props.children}
 

@@ -105,13 +105,40 @@
 }
 
 /* product section  */
+.products {
+    border-bottom: 2px solid #D6CEB5;
+    margin-bottom: 1rem;
+}
+
 .products .box-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(15rem, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
-    padding: 3rem 0;
+    padding-top: 2rem;
+
+}
+
+.pagination {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.pagination button {
+    padding: 0.5rem 1rem;
+    margin-right: 2rem;
+    border-radius: 50%;
+}
+
+.pagination .selected {
+    background-color: #75C325;
+    color: #fff;
 }
 
 .cart-item {

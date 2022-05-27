@@ -21,12 +21,15 @@ const Cart = (props) => {
 
                 <h3>Order Semmary</h3>
                 <h4>Iteams Ordered:{totalQuantity}</h4>
-                <p>Subtotal: ${total.toFixed(2)} </p>
-                <p>Taxes:${tax.toFixed(2)}</p>
-                <p>Delivery Charge: ${shipping}</p>
-                <p>Total: ${grandTotal.toFixed(2)}</p>
-                {props.children}
-                <a href="orderReview.html" class="cart-btn">Place Order</a>
+
+                <div>
+                    <p class="cart-para"><span>Subtotal:</span> <samp></samp> <span>৳{total.toFixed(2)}</span> </p>
+                    <p class="cart-para"><span>Taxes:</span> <span>৳{tax.toFixed(2)}</span> </p>
+                    <p class="cart-para"> <span>Delivery Charge:</span> <span>৳{shipping}</span> </p>
+                    <p class="cart-para"> <span>Total:</span> <span>৳{grandTotal.toFixed(2)}</span> </p>
+                    {props.children}
+                    <a href="orderReview.html" class="cart-btn">Place Order</a>
+                </div>
             </div>
 
         </div>

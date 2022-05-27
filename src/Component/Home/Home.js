@@ -195,7 +195,7 @@ const Home = () => {
             </section >
 
             <section class="container que-section">
-                <h3>Common questions</h3>
+                <h3>Questions & Answers</h3>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">

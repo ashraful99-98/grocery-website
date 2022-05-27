@@ -11,7 +11,7 @@ const Product = (props) => {
                 <div class="icons">
                     <a onClick={() => props.handleAddToCart(props.product)} class="fas fa-shopping-cart"></a>
 
-                    <a href="OrderReview.html" class="fas fa-heart"></a>
+                    <a href="wishList.html" class="fas fa-heart"></a>
 
                     <a href="" class="fas fa-eye"></a>
                 </div>
@@ -22,7 +22,7 @@ const Product = (props) => {
                     <h3>{name}</h3>
                     <small>{wight}/${price}</small>
                     <p><small class="small-p">only {stock} left in stock - order soon</small></p>
-                    <div class="price">${price}</div>
+                    <div class="price">৳{price}</div>
                     <div class="stars">
                         <Rating
                             initialRating={star}

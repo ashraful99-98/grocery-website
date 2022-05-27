@@ -9,6 +9,16 @@
     border-radius: 5px;
 }
 
+.cart .cart-para {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: left;
+    text-align: left; */
+
+}
+
+span {}
+
 .cart .cart-btn:hover {
     color: #fff;
     background-color: #75C325;

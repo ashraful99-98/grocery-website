@@ -20,7 +20,7 @@ const ReviewItem = (props) => {
                 <div class="review-p">
 
                     <p class="paragraph">Qty {quantity}</p>
-                    <p class="price">${price}</p>
+                    <p class="price">৳{price}</p>
 
                 </div>
 
