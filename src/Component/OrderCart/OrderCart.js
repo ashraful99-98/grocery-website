@@ -29,7 +29,8 @@ const OrderCart = (props) => {
                 <h5 class="cart-h4"><span>Total ></span><span>৳{grandTotal.toFixed(2)}</span></h5>
 
                 {props.children}
-
+                <br />
+                <a class="pay-btn" href="placeOrder.html">Place Order</a>
                 <div class="payment">
                     <h5 class="cart-h4 h5">Payment</h5>
                     <p class="cart-h4"><span>Payment Method: </span><span><img src={payment} alt="" width="140px" /></span></p>

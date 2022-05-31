@@ -1,5 +1,5 @@
 .login {
-    margin: 5rem 0;
+    margin: 5.5rem 0;
 }
 
 .login-section {
@@ -28,7 +28,7 @@
     padding-left: 1rem;
     border-radius: 2rem;
     font-size: 1.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
 
 }
 
@@ -37,7 +37,7 @@
 }
 
 .login-box {
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
 
 }
 
@@ -73,13 +73,18 @@
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    margin-right: 1rem;
+}
+
+.register-box p span {
+    margin-right: 0.2rem;
 }
 
 .register-box .box a {
     background-color: #BAC34E;
     color: #fff;
     padding: 0.6rem 2.2rem;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     text-decoration: none;
     border-radius: 20px;
 }
@@ -91,4 +96,37 @@
 
 .register-box a:hover {
     color: #75C325;
+}
+
+.reset-btn {
+    background-color: #75C325;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 0.850rem;
+    margin: 0.4rem 0;
+}
+
+.google-box {
+    margin-top: 1rem;
+    background-color: #4082ED;
+    padding: 0.4rem 0.2rem;
+    padding-right: 0.8rem;
+    border-radius: .2rem;
+}
+
+.google-img {
+    background-color: #fff;
+    padding: 0.1rem;
+    margin-right: 0.2rem;
+    border-radius: .2rem;
+
+}
+
+.google-box button {
+    background-color: #4082ED;
+    color: #fff;
+    font-weight: bold;
 }

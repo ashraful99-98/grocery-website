@@ -35,7 +35,7 @@ const Footer = () => {
                         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
                         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
                         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-                        <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+                        <a hrefef="#"> <i class="fab fa-pinterest"></i> pinterest </a>
                     </div>
 
                     <div class="box">
