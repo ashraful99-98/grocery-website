@@ -1,12 +1,13 @@
 import React from 'react';
-import useAuth from '../../hooks/useAuth';
+import useCart from '../../hooks/useCart';
+import useFirebase from '../../hooks/useFirebase';
 
 import '../Header/Header.css';
 import headerLogo from '../picutre/Image/logo_grocery.jpg';
 
 const Header = () => {
-
-    const { user, logOut } = useAuth();
+    const { } = useCart();
+    const { user, logOut } = useFirebase();
 
     return (
         <div>
@@ -53,17 +54,15 @@ const Header = () => {
                         </div>
                         < div class="icons">
 
-                            <a class="fas fa-shopping-cart icon" href="orderReview.html"> </a>
+                            <a class="fas fa-shopping-cart icon" href="orderReview.html"></a>
                             <a class="fas fa-heart icon" href="wishList.html"> </a>
                             <a class="fas fa-user icon" href="login.html"></a>
-                            {/* <p>Hi! {user.displayname}</p>
+                            {/* <p>Hi! {user.displayname}</p> */}
 
                             {
-                                user.email ?
-                                    <button onClick={logOut}>Log Out</button>
-                                    :
-                                    <a href="login.html">Login</a>
-                            } */}
+                                user?.email &&
+                                <button onClick={logOut}>Log Out</button>
+                            }
 
 
                         </div>

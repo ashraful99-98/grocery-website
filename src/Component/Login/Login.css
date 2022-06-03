@@ -109,12 +109,18 @@
     margin: 0.4rem 0;
 }
 
+/* google and github sign in  */
+.sign-in {
+    display: flex;
+}
+
 .google-box {
     margin-top: 1rem;
     background-color: #4082ED;
     padding: 0.4rem 0.2rem;
     padding-right: 0.8rem;
     border-radius: .2rem;
+    margin-right: 1rem;
 }
 
 .google-img {
@@ -127,6 +133,47 @@
 
 .google-box button {
     background-color: #4082ED;
+    color: #fff;
+    font-weight: bold;
+}
+
+.github-box {
+    margin-top: 1rem;
+    background-color: #000000;
+    padding: 0.4rem 0.2rem;
+    padding-right: 0.8rem;
+    border-radius: .2rem;
+}
+
+.github-img {
+    background-color: #fff;
+    margin-right: 0.2rem;
+    border-radius: 50%;
+
+}
+
+.github-box button {
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.facebook-box {
+    margin-top: 1rem;
+    background-color: #0D8AF1;
+    padding: 0.4rem 0.2rem;
+    padding-right: 0.8rem;
+    border-radius: .2rem;
+}
+
+.facebook-img {
+    margin-right: 0.2rem;
+    border-radius: 50%;
+
+}
+
+.facebook-box button {
+    background-color: #0D8AF1;
     color: #fff;
     font-weight: bold;
 }

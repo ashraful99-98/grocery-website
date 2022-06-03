@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import './Login.css';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import google from '../picutre/Image/Google__G__Logo.svg.png';
+import github from '../picutre/Image/github.png';
+import facebook from '../picutre/Image/facebook.png';
 import useAuth from '../../hooks/useAuth';
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
+    const { signInUsingGithub, signInUsingGoogle, signInUsingFacebook } = useAuth();
     const auth = getAuth();
 
 
@@ -65,13 +67,37 @@ const Login = () => {
                         <div class="register-box">
                             <a href="register.html">Create Account</a>
                         </div>
-                        <div class="google-box">
-                            <button
-                                onClick={signInUsingGoogle}
-                            >
-                                <img class="google-img" src={google} alt="" width="27px" height="27px" />
 
-                                Sign In With Google</button>
+                        <div class="sign-in">
+                            <div class="google-box">
+                                <button
+                                    onClick={signInUsingGoogle}
+                                >
+                                    <img class="google-img" src={google} alt="" width="27px" height="27px" />
+
+                                    Sign In With Google</button>
+
+                            </div>
+                            <div class="github-box">
+                                <button
+                                    onClick={signInUsingGithub}
+                                >
+                                    <img class="github-img" src={github} alt="" width="27px" height="27px" />
+
+                                    Sign In With GitHub</button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="facebook-box">
+                            <button
+                                onClick={signInUsingFacebook}
+                            >
+                                <img class="facebook-img" src={facebook} alt="" width="27px" height="27px" />
+
+                                Sign In With Facebook</button>
+
                         </div>
                     </from>
                 </div>
