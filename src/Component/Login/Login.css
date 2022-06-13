@@ -20,7 +20,7 @@
     text-align: left;
 }
 
-.login-from input {
+.login-from .input-box {
     width: 70%;
     height: 3.5rem;
     border: 1px solid gray;
@@ -29,10 +29,32 @@
     border-radius: 2rem;
     font-size: 1.1rem;
     margin-bottom: 1.2rem;
+    align-items: center;
 
 }
 
-.login-from input:hover {
+.login-from .input-box input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: #F4FAED;
+    margin-top: 0.8rem;
+}
+
+.eye {
+    position: absolute;
+    margin-top: 1.1rem;
+    justify-content: right;
+    text-align: right;
+    /* margin-left: 11rem; */
+}
+
+#hide1,
+#hide11 {
+    display: none;
+}
+
+.login-from .input-box:hover {
     border: 3px solid #75C325;
 }
 

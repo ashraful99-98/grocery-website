@@ -43,6 +43,23 @@ const Login = () => {
                 setError(error.message);
             })
     }
+    const eye = () => {
+        var password = document.getElementById("password");
+        var hidee1 = document.getElementById("hide1");
+        var hidee2 = document.getElementById("hide2");
+
+        if (password.type === 'password') {
+            password.type = "text";
+            hidee1.style.display = "block";
+            hidee2.style.display = "none";
+        }
+        else {
+            password.type = "password";
+            hidee1.style.display = "none";
+            hidee2.style.display = "block";
+        }
+
+    }
 
 
     return (
@@ -57,10 +74,22 @@ const Login = () => {
                 <div className="login-section container">
 
                     <from class="login-from" onChange={handleLogin}>
+                        <div class="input-box">
+                            <input onBlur={handleEmail} type="email" name="Email" id="Email" placeholder="Enter Your Email" required />
+                        </div>
 
-                        <input onBlur={handleEmail} type="email" name="Email" id="Email" placeholder="Enter Your Email" required />
-                        <input onBlur={handlePassword} type="password" name="Password" id="Password" placeholder="Enter Your Password" required />
+                        <div class="input-box" onClick={eye}>
+                            <input onBlur={handlePassword} type="password" name="Password" id="password" placeholder="Enter Your Password" required />
+                            <span class="eye">
+
+                                <i id='hide1' class="fa fa-eye"></i>
+                                <i id='hide2' class="fa fa-eye-slash"></i>
+
+                            </span>
+                        </div>
+
                         <small className='text-danger pb-2'>{error}</small>
+
                         <div class="login-box">
                             <button class="login-btn" >Sign In</button>
                         </div>

@@ -4,8 +4,9 @@ import { getAuth, createUserWithEmailAndPassword, sendEmailVerification, sendPas
 const Register = () => {
     const auth = getAuth();
 
+
     const [name, setName] = useState('');
-    // const [lastName, setLastName] = useState('');
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -13,9 +14,7 @@ const Register = () => {
     const handleNameChange = e => {
         setName(e.target.value);
     }
-    // const handleLastChange = e => {
-    //     setLastName(e.target.value);
-    // }
+
     const handleEmailChange = e => {
         setEmail(e.target.value);
     }
@@ -65,8 +64,29 @@ const Register = () => {
         sendPasswordResetEmail(auth, email)
             .then(result => {
                 console.log(result);
+                if (password) {
+                    setError('Check Your Mail')
+                    return;
+                }
                 //    RESET PASSWORD 
             })
+    }
+    const eye = () => {
+        var password = document.getElementById("password");
+        var hidee1 = document.getElementById("hide11");
+        var hidee2 = document.getElementById("hide22");
+
+        if (password.type === 'password') {
+            password.type = "text";
+            hidee1.style.display = "block";
+            hidee2.style.display = "none";
+        }
+        else {
+            password.type = "password";
+            hidee1.style.display = "none";
+            hidee2.style.display = "block";
+        }
+
     }
     return (
         <div>
@@ -81,16 +101,33 @@ const Register = () => {
 
                     <form class="login-from" onSubmit={handleRegistration}>
 
-                        <input onBlur={handleNameChange} type="text" name="Name" id="First-Name" placeholder="Name" required />
-                        {/* <input onBlur={handleLastChange} type="text" name="Last Name" id="Last-Name" placeholder="Last Name" required /> */}
-                        <input onBlur={handleEmailChange} type="email" name="Email" id="Email" placeholder="Email" required />
-                        <input onBlur={handlePasswordChange} type="password" name="Password" id="Password" placeholder="Password" required />
+
+                        <div className="input-box">
+                            <input onBlur={handleNameChange} type="text" name="Name" id="First-Name" placeholder="Name" required />
+                        </div>
+
+                        <div class="input-box">
+                            <input onBlur={handleEmailChange} type="email" name="Email" id="Email" placeholder="Email" required />
+                        </div>
+
+                        <div class="input-box" onClick={eye}>
+                            <input onBlur={handlePasswordChange} type="password" name="Password" id="password" placeholder="Password" required />
+                            <span class="eye">
+
+                                <i id='hide11' class="fa fa-eye"></i>
+                                <i id='hide22' class="fa fa-eye-slash"></i>
+
+                            </span>
+                        </div>
+
                         <small className='text-danger pb-2'>{error}</small>
+
                         <small>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <br /> <a class="privacy-policy" href="privacyPolicy.html">privacy policy</a>
 
                             <div class="reset-box">
                                 <button onClick={handleResetPassword} class="reset-btn" href="">Reset Password</button>
                             </div>
+
                         </small>
 
 

@@ -57,13 +57,25 @@ const Header = () => {
                             <a class="fas fa-shopping-cart icon" href="orderReview.html"></a>
                             <a class="fas fa-heart icon" href="wishList.html"> </a>
                             <a class="fas fa-user icon" href="login.html"></a>
-                            {/* <p>Hi! {user.displayname}</p> */}
+
+                        </div>
+                        <div className="user-logout">
+                            {/* <small > {user.displayName}</small>
 
                             {
                                 user?.email &&
                                 <button onClick={logOut}>Log Out</button>
-                            }
+                            } */}
+                            {user.email && <small class="small-user" style={{ color: 'grey' }}>Hi! {user.displayName} </small>
 
+
+                            }
+                            {
+                                user?.email &&
+                                <button class="logout-user" onClick={logOut}>log out</button>
+
+
+                            }
 
                         </div>
                     </nav>

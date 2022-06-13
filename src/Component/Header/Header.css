@@ -39,6 +39,7 @@
 
 .header-nav .navbar-ul a:hover {
     color: #bac34e;
+    text-decoration: underline 2.5px solid;
 }
 
 .dropdown {
@@ -64,4 +65,18 @@
 
 .header-nav .icons .icon:hover {
     color: #bac34e;
+}
+
+.small-user {
+    padding: 0 5px;
+}
+
+.logout-user {
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: #bac34e;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
 }
