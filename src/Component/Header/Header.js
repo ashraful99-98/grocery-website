@@ -1,12 +1,11 @@
 import React from 'react';
-import useCart from '../../hooks/useCart';
 import useFirebase from '../../hooks/useFirebase';
 
 import '../Header/Header.css';
 import headerLogo from '../picutre/Image/logo_grocery.jpg';
 
-const Header = () => {
-    const { } = useCart();
+const Header = (props) => {
+
     const { user, logOut } = useFirebase();
 
     return (
@@ -54,7 +53,7 @@ const Header = () => {
                         </div>
                         < div class="icons">
 
-                            <a class="fas fa-shopping-cart icon" href="orderReview.html"></a>
+                            <a class="fas fa-shopping-cart icon" href="orderReview.html">{props.quantity}</a>
                             <a class="fas fa-heart icon" href="wishList.html"> </a>
                             <a class="fas fa-user icon" href="login.html"></a>
 
@@ -66,16 +65,22 @@ const Header = () => {
                                 user?.email &&
                                 <button onClick={logOut}>Log Out</button>
                             } */}
-                            {user.email && <small class="small-user" style={{ color: 'grey' }}>Hi! {user.displayName} </small>
+
+
+                            {user && <small class="small-user" style={{ color: 'grey' }}>{user.displayName} </small>
 
 
                             }
                             {
-                                user?.email &&
-                                <button class="logout-user" onClick={logOut}>log out</button>
+                                user.displayName ||
+                                    user.email ?
+                                    <button class="logout-user" onClick={logOut}>log out</button>
+                                    :
+                                    <a class="logout-user" href="login.html">log In</a>
 
 
                             }
+
 
                         </div>
                     </nav>

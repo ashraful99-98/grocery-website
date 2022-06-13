@@ -41,7 +41,7 @@ const useFirebase = () => {
     }
 
     const logOut = () => {
-        signOut(auth)
+        signOut(auth, faceBookProvider, githubProvider, googleProvider)
             .then(() => {
                 setUser({})
             })
