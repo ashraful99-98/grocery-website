@@ -1,12 +1,13 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import React from 'react';
-import './App.css';
-import About from './Component/About/About';
-import Blog from './Component/Blog/Blog';
-import Footer from './Component/Footer/Footer';
-import Header from './Component/Header/Header';
-import Home from './Component/Home/Home';
-import Review from './Component/Review/Review';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
+import "./App.css";
+import About from "./Component/About/About";
+import Blog from "./Component/Blog/Blog";
+import Footer from "./Component/Footer/Footer";
+import Header from "./Component/Header/Header";
+import Home from "./Component/Home/Home";
+import Review from "./Component/Review/Review";
+import NotFound from "./Component/NotFound/NotFound";
 
 function App() {
   return (
@@ -24,10 +25,13 @@ function App() {
             <About></About>
           </Route>
           <Route path="/review.html">
-             <Review></Review>
+            <Review></Review>
           </Route>
           <Route path="/blog.html">
-             <Blog></Blog>
+            <Blog></Blog>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
