@@ -21,8 +21,9 @@ import grocer from '../picutre/Image/groca-new.png';
 import pic1 from '../picutre/Image/Untitled-2_180x.png';
 import pic2 from '../picutre/Image/test-2_180x.png';
 import pic3 from '../picutre/Image/test-3_180x.png';
-const About = () => {
 
+
+const About = () => {
     return (
         <div>
             <div class="heading-section">

@@ -36,8 +36,8 @@ const Header = (props) => {
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                         <li><a class="dropdown-item dropdown" href="orderReview.html">Order Review</a><hr class="dropdown-divider" /></li>
-                                        <li><a class="dropdown-item dropdown" href="orderReview.html">Cart</a></li>
-                                        <li><hr class="dropdown-divider" /></li>
+                                        {/* <li><a class="dropdown-item dropdown" href="">Cart</a></li> */}
+                                        {/* <li><hr class="dropdown-divider" /></li> */}
                                         <li><a class="dropdown-item dropdown" href="clientReview.html">Client Review</a></li>
                                     </ul>
                                 </li>

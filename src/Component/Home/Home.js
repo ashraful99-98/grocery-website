@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useEffect, useState } from 'react';
 import './Home.css';
 import slider1 from '../picutre/Image/home-img-1.png';
 import slider2 from '../picutre/Image/home-img-2.png';
@@ -11,7 +12,7 @@ import banner3 from '../picutre/Image/banner-3.jpg';
 import useCart from '../../hooks/useCart';
 import spacialImg from '../picutre/Image/spacialPerson.png';
 import { addToDb } from '../../utilities/fakedb';
-import HomeProduct from '../HomeProduct.js/HomeProduct';
+import HomeProduct from '../HomeProduct/HomeProduct';
 
 const Home = () => {
 

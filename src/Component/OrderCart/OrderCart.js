@@ -18,7 +18,7 @@ const OrderCart = (props) => {
     return (
         <div>
             <div class="cart">
-                <h4 class="cart-h4 h4">Cart & Payment </h4>
+                <h4 class="cart-h4 h4"> View Cart</h4>
                 <h6 class="cart-h4"><span>Iteams Ordered =</span><span>{totalQuantity}</span></h6>
 
                 <p class="cart-h4"><span>Subtotal: </span><span>৳{total.toFixed(2)}</span></p>
@@ -31,7 +31,7 @@ const OrderCart = (props) => {
                 {props.children}
                 <br />
                 <a class="pay-btn" href="placeOrder.html">Place Order</a>
-                <div class="payment">
+                {/* <div class="payment">
                     <h5 class="cart-h4 h5">Payment</h5>
                     <p class="cart-h4"><span>Payment Method: </span><span><img src={payment} alt="" width="140px" /></span></p>
 
@@ -47,7 +47,7 @@ const OrderCart = (props) => {
                     </span></small>
                     <a class="pay-btn" href="">Pay Now</a>
 
-                </div>
+                </div> */}
             </div>
 
         </div>

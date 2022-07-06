@@ -14,6 +14,7 @@ const Blog = () => {
                 <div className="heading-div">
                     <h1 class="head">our blogs</h1>
                     <p class="heading-p"> <a href="home.html">home <span>>></span></a>blogs </p>
+
                 </div>
             </div>
 

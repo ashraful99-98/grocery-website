@@ -17,7 +17,7 @@ import PrivacyPolicy from './Component/PrivacyPolicy/PrivacyPolicy';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import Shop from './Component/Shop/Shop';
 import Wishlist from './Component/Wishlist/Wishlist';
-
+import NotFound from "./Component/NotFound/NotFound";
 
 function App() {
   return (
@@ -43,9 +43,9 @@ function App() {
             <Route path="/orderReview.html">
               <OrderReview></OrderReview>
             </Route>
-            <PrivateRoute path="/placeOrder.html">
+            <Route path="/placeOrder.html">
               <PlaceOrder></PlaceOrder>
-            </PrivateRoute>
+            </Route>
             <Route path="/clientReview.html">
               <ClientReview></ClientReview>
             </Route>
@@ -74,6 +74,9 @@ function App() {
             </Route>
             <Route path="/contact.html">
               <Contact></Contact>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer></Footer>

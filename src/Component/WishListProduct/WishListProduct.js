@@ -11,7 +11,10 @@ const WishListProduct = (props) => {
                 <p class="col p">
                     <img src={img} alt="" width="130px" height="120px" /></p>
                 <p class="col p">{name}</p>
-                <p class="col p">৳{price}</p>
+                <div>
+                    <p class="col p">৳{price}</p>
+                    <p class="col p">Qty {quantity}</p>
+                </div>
                 <p class="col"><i onClick={
                     () => handleRemove(key)} class="fas fa-trash-alt wishlist-icon"></i></p>
             </div>

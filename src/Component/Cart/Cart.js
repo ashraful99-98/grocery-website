@@ -28,7 +28,7 @@ const Cart = (props) => {
                     <p class="cart-para"> <span>Delivery Charge:</span> <span>৳{shipping}</span> </p>
                     <p class="cart-para"> <span>Total:</span> <span>৳{grandTotal.toFixed(2)}</span> </p>
                     {props.children}
-                    <a href="orderReview.html" class="cart-btn">Place Order</a>
+                    <a href="orderReview.html" class="cart-btn">Review Your Order</a>
                 </div>
             </div>
 
